@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Android
+android/app/build/
+android/.gradle/
+android/app/.cxx/
+*.keystore
+!debug.keystore
+
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+
+# Metro
+.metro-health-check*
+
+# Misc
+.DS_Store
+*.log
+
